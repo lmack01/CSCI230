@@ -1,0 +1,5 @@
+gcc hw4-A-BrandonMord.c -c
+
+gcc hw4-B-BrandonMord.c -c
+
+gcc hw4-BrandonMord.c hw4-A-BrandonMord.o hw4-B-BrandonMord.o -o hw4

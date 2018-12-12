@@ -1,0 +1,4 @@
+HEADERS = *.h
+
+ll: hw11-levimack-4.c hw11-lib-levimack.so
+	gcc hw11-levimack-4.c  -L./hw11-lib-levimack.so -ldl -o hw11-levimack-file3

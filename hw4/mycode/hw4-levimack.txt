@@ -1,0 +1,7 @@
+gcc hw4-A-levimack.c -c
+
+
+gcc hw4-B-levimack.c -c
+
+
+gcc hw4-levimack.c hw4-A-levimack.o hw4-B-levimack.o -o hw4

@@ -1,0 +1,2 @@
+all:
+	gcc hw11-levimack-main.c hw11-levimack-A.c hw11-levimack-B.c hw11-levimack-C.c hw11-levimack-D.c -o hw11-levimack-file1

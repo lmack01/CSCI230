@@ -1,0 +1,5 @@
+HEADERS = *.h
+
+ll: hw11-levimack-A.c hw11-levimack-B.c hw11-levimack-C.c hw11-levimack-D.c $(HEADERS)
+	gcc -c -fPIC hw11-levimack-A.c hw11-levimack-B.c hw11-levimack-C.c hw11-levimack-D.c
+	gcc -shared -o hw11-lib-levimack.so hw11-levimack-A.o hw11-levimack-B.o hw11-levimack-C.o hw11-levimack-D.o
